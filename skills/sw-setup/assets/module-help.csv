@@ -1,0 +1,11 @@
+canonicalId,moduleName,moduleCode,skillType,skillId,skillName,description,filePath
+sw-setup,Schreibwerkstatt,sw,workflow,bmad-sw-setup,Schreibwerkstatt Setup,Richtet die Schreibwerkstatt ein und erstellt die Projektstruktur mit Bibel-Templates und Zustandsdateien,_bmad/sw/skills/sw-setup/SKILL.md
+sw-dramaturg,Schreibwerkstatt,sw,agent,bmad-sw-dramaturg,Dramaturg,Spezialisierter Agent für Handlungsstruktur Plot-Architektur Spannungsbögen und dramaturgische Analyse,_bmad/sw/skills/dramaturg/SKILL.md
+sw-autor,Schreibwerkstatt,sw,agent,bmad-sw-autor,Autor,Spezialisierter Agent für das Schreiben von Prosa-Kapiteln basierend auf Bibel und Zustand,_bmad/sw/skills/autor/SKILL.md
+sw-lektor,Schreibwerkstatt,sw,agent,bmad-sw-lektor,Lektor,Spezialisierter Agent für sprachliche Überarbeitung Stilkonsistenz und Qualitätsprüfung,_bmad/sw/skills/lektor/SKILL.md
+sw-figurenprufer,Schreibwerkstatt,sw,agent,bmad-sw-figurenprufer,Figurenprüfer,Spezialisierter Agent der Figurenkonsistenz Motivation und Entwicklungsbögen überwacht,_bmad/sw/skills/figurenprufer/SKILL.md
+sw-kontinuitaetsprufer,Schreibwerkstatt,sw,agent,bmad-sw-kontinuitaetsprufer,Kontinuitätsprüfer,Spezialisierter Agent der Handlungsfäden Zeitlinien und Weltlogik auf Widersprüche prüft,_bmad/sw/skills/kontinuitaetsprufer/SKILL.md
+sw-motivjaeger,Schreibwerkstatt,sw,agent,bmad-sw-motivjaeger,Motivjäger,Spezialisierter Agent der literarische Motive Symbole und thematische Muster trackt und analysiert,_bmad/sw/skills/motivjaeger/SKILL.md
+sw-stilprufer,Schreibwerkstatt,sw,workflow,bmad-sw-stilprufer,Stilprüfer,Workflow zur automatisierten Analyse von Stilkonsistenz KI-Mustern und Sprachqualität,_bmad/sw/skills/stilprufer/SKILL.md
+sw-ki-muster-erkennung,Schreibwerkstatt,sw,workflow,bmad-sw-ki-muster-erkennung,KI-Muster-Erkennung,Erkennt und markiert typische KI-generierte Formulierungen und schlägt menschlichere Alternativen vor,_bmad/sw/skills/ki-muster-erkennung/SKILL.md
+sw-kapitel-export,Schreibwerkstatt,sw,workflow,bmad-sw-kapitel-export,Kapitel-Export,Exportiert fertige Kapitel als EPUB DOCX oder Markdown mit korrekter Formatierung,_bmad/sw/skills/kapitel-export/SKILL.md

@@ -1,0 +1,34 @@
+code: "sw"
+name: "Schreibwerkstatt"
+version: "0.1.0"
+description: "KI-gestützte Roman-Entwicklung mit spezialisierten Agenten für Plotting, Figurenentwicklung, Lektorat, Kontinuitätsprüfung und Motivanalyse. Beinhaltet ein Bibel-System für konsistentes Worldbuilding und State-Management pro Kapitel."
+author: "Kenearos"
+license: "MIT"
+repository: "https://github.com/Kenearos/schreibwerkstatt"
+
+config:
+  variables:
+    - name: projekt_name
+      type: string
+      description: "Name deines Romanprojekts"
+    - name: sprache
+      type: select
+      options: ["Deutsch", "English"]
+      description: "Sprache des Romans"
+    - name: genre
+      type: string
+      description: "Genre des Romans (z.B. Dark Romance, Fantasy, Thriller)"
+    - name: erzaehlperspektive
+      type: select
+      options: ["Ich-Erzähler", "Dritte Person Limited", "Dritte Person Allwissend", "Zweite Person"]
+      description: "Erzählperspektive des Romans"
+    - name: zeitform
+      type: select
+      options: ["Präsens", "Präteritum"]
+      description: "Zeitform der Erzählung"
+    - name: kapitel_laenge
+      type: select
+      options: ["kurz (2000-3000 Wörter)", "mittel (3000-5000 Wörter)", "lang (5000-8000 Wörter)"]
+      description: "Ungefähre Kapitellänge"
+
+dependencies: []
