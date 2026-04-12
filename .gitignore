@@ -1,0 +1,21 @@
+# Output-Dateien (werden lokal generiert)
+_bmad-output/kapitel/*.md
+_bmad-output/export/*
+
+# Zustandsdateien (projektspezifisch)
+zustand/kapitel/*.md
+
+# Gefüllte Bibel-Dateien (projektspezifisch — nur Templates committen)
+# Kommentiere die folgenden Zeilen aus wenn du dein Projekt committen willst:
+# bibel/figuren/*.md
+# !bibel/figuren/_vorlage.md
+# bibel/orte/*.md
+# !bibel/orte/_vorlage.md
+
+# System
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.env
+node_modules/
