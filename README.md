@@ -23,6 +23,7 @@ Statt dass eine KI alles alleine macht, arbeiten **7 spezialisierte Agenten** zu
 | 🧠 **Figurenprüfer** (Persona) | Charakter-Psychologin | Figurenkonsistenz, Motivation, Arcs |
 | ⏱️ **Kontinuitätsprüfer** (Chronos) | Archivar | Plotholes, Zeitlinien, Logik |
 | 🔮 **Motivjäger** (Symbolon) | Literaturwissenschaftler | Motive, Symbole, Themen |
+| 🎯 **Floskel-Killer** | Adversarial Review | Klischees, Fuellmuster, repetitive Patterns |
 | 🤖 **KI-Muster-Erkennung** | Perplexity Gate | Erkennt AI-Slop |
 
 ## Features
@@ -85,6 +86,7 @@ schreibwerkstatt/
 │   ├── kontinuitaetsprufer/     #    Plotholes & Logik
 │   ├── motivjaeger/             #    Motive & Symbole
 │   ├── stilprufer/              #    Stilanalyse
+│   ├── floskel-killer/           #    Anti-Klischee & Pattern-Scan
 │   ├── ki-muster-erkennung/     #    Anti-AI-Slop
 │   └── kapitel-export/          #    EPUB/DOCX/MD Export
 ├── agents/                      # 🎭 Agent-Definitionen (YAML)
@@ -102,8 +104,9 @@ schreibwerkstatt/
 3. Kapitelplan      → Beats und Spannungsbögen planen
 4. Schreiben        → Kapitel für Kapitel mit dem Autor
 5. Review           → Lektor, Figurenprüfer, Kontinuität, Motive
-6. KI-Check         → AI-Slop erkennen und umschreiben
-7. Export           → EPUB, DOCX oder Markdown
+6. Floskel-Check    → Klischees, Moment-Inflation, vage Emotionen finden
+7. KI-Check         → AI-Slop erkennen und umschreiben
+8. Export           → EPUB, DOCX oder Markdown
 ```
 
 Jeder Schritt ist ein **Gate** — du entscheidest ob es weitergeht.

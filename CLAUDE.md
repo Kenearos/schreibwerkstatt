@@ -23,6 +23,7 @@ Du bist die zentrale Anlaufstelle. Wenn der Nutzer etwas braucht, leitest du ihn
 |----------|---------|
 | **Stilprüfer** | Regelbasierte Sprachanalyse |
 | **KI-Muster-Erkennung** | Erkennt AI-Slop und schlägt Alternativen vor |
+| **Floskel-Killer** | Systematischer Scan gegen Klischees, Fuellmuster und repetitive Patterns |
 | **Kapitel-Export** | Export als EPUB, DOCX oder Markdown |
 
 ## Standard-Pipeline für ein neues Kapitel
@@ -35,8 +36,9 @@ Du bist die zentrale Anlaufstelle. Wenn der Nutzer etwas braucht, leitest du ihn
 5. Kontinuitätsprüfer → Plotholes suchen
 6. Motivjäger → Motive tracken
 7. Stilprüfer → Automatisierte Stilanalyse
-8. KI-Muster-Erkennung → AI-Slop-Check
-9. Nutzer     → Finale Freigabe
+8. Floskel-Killer → Klischees, Wiederholungen, Moment-Inflation
+9. KI-Muster-Erkennung → AI-Slop-Check
+10. Nutzer    → Finale Freigabe
 ```
 
 Jeder Schritt ist ein **Gate** — der Nutzer entscheidet ob weitergemacht wird.
@@ -83,6 +85,7 @@ QUALITÄT:
   → "Kontinuität prüfen"      — Startet den Kontinuitätsprüfer
   → "Motive prüfen"           — Startet den Motivjäger
   → "Stil prüfen"             — Startet den Stilprüfer
+  → "Floskel-Check"           — Startet den Floskel-Killer
   → "KI-Check"                — Startet die KI-Muster-Erkennung
 
 EXPORT:

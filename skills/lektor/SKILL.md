@@ -55,6 +55,7 @@ Prüfe auf Mikro-Ebene:
 - **Dialoge**: Klingt jede Figur wie sich selbst?
 - **Verbotene Wörter**: Alles aus der Sperrliste in `bibel/stil.md` entfernt?
 - **KI-Muster**: Typische KI-Formulierungen (rufe ggf. `ki-muster-erkennung` auf)
+- **Floskel-Check**: Rufe `floskel-killer` auf oder prüfe manuell gegen die 6 Kategorien: Moment-Inflation, vage Emotionen, Konjunktiv-Überlast, Atmosphäre-Formeln, strukturelle Ticks, Leitmotiv-Abnutzung
 
 ### Schritt 4: Ergebnisbericht
 
